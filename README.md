@@ -1,4 +1,5 @@
-![image](https://github.com/ibrazqrj/habbo-index/assets/153816768/2fc371ad-6cbe-4046-9fd7-b1bc22bfec22)
+![image](https://github.com/ibrazqrj/Habbo-Index/assets/153816768/7d243c06-14b4-4a59-bfbe-bdfceffa2684)
+
 
 
 # Habbo Index Project 🛋️
@@ -18,10 +19,12 @@ Check out the live demo of the Habbo Index project [here](https://habbo-index.ve
 
 ## Screenshot 📸
 
-![image](https://github.com/ibrazqrj/habbo-index/assets/153816768/60b17bee-81e4-46d9-a364-8bb4f3346da9)
+![image](https://github.com/ibrazqrj/Habbo-Index/assets/153816768/44835aec-8691-4945-8d5f-c1a60c087014)
+
 
 ## Contributors 👥
-![image](https://github.com/ibrazqrj/habbo-index/assets/153816768/29d4665e-b07c-471a-999c-37d4e3fc5fc9)
+![image](https://github.com/ibrazqrj/Habbo-Index/assets/153816768/89af5fee-b9a3-4ac8-8e10-a96941408a4a)
+
 
 
             @ibrazqrj
