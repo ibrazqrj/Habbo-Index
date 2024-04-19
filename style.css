@@ -1,0 +1,381 @@
+* {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Roboto", "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow-x: hidden;
+  background: url("img/background3.jpg") no-repeat center center fixed;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0);
+}
+
+header,
+footer {
+  background-color: #202225;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 150px);
+  margin: 0 175px;
+}
+
+.login-container {
+  margin-right: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -380px;
+}
+
+.login-card {
+  width: 250px;
+  height: 400px;
+  padding: 20px;
+  border: 1px solid #202225;
+  border-radius: 5px;
+  background-color: #202225;
+  color: #fff;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 42px;
+}
+
+.login-card h2 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.login-card h3 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-left: 130px;
+  color: #56585a;
+  font-size: 10px;
+}
+
+.login-card h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #56585a;
+  font-size: 10px;
+}
+
+.login-card h5 {
+  font-size: 10px;
+  padding-left: 10px;
+  margin-top: -18px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.login-card h6 {
+  color: #d7ad04;
+  font-size: 10px;
+  padding-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  margin-right: 0px;
+}
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  min-height: 520px;
+  margin: 0 auto;
+  margin-right: 50px;
+  margin-left: 500px;
+  margin-top: -100px;
+}
+
+.card-container {
+  min-width: 800px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 0;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  margin-top: -80px;
+}
+
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.register-card {
+  width: 400px;
+  height: 30px;
+  background-color: #202225;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.register-button-card {
+  width: 400px;
+  height: 10px;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.button2 {
+  width: 120px;
+  height: 70px;
+  margin-left: 416px;
+  margin-top: -10px;
+}
+
+.register-container img.registerimg {
+  width: 100%;
+  height: auto;
+}
+
+.registerimg {
+  width: 100%;
+  height: auto;
+  margin-left: 120px;
+  margin-top: 10px;
+}
+
+.register-container h1 {
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.register-button register-button-card {
+  width: calc(100% - 40px);
+  padding: 10px;
+  background-color: #d7ad04;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 13px;
+  margin-top: 20px;
+  position: absolute;
+  top: 0;
+  right: -40px;
+}
+
+.register-button {
+  width: calc(100% - 40px);
+  padding: 10px;
+  background-color: #d7ad04;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 13px;
+  margin-top: 20px;
+  position: absolute;
+  top: 0;
+  right: -40px;
+}
+
+.login-card img {
+  width: 20px;
+  height: auto;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  color: #858687;
+  font-size: 11px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: calc(100% - 16px);
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #30202259;
+  background-color: #303339;
+  color: #fff;
+}
+
+.input-group input:focus {
+  border-color: #d7ad04;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #202225;
+  background: -o-linear-gradient(bottom, #d7ad04 0%, rgba(255, 221, 0, 1) 40%, rgba(255, 224, 0, 1) 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#d7ad04), color-stop(40%, rgba(255, 221, 0, 1)), to(rgba(255, 224, 0, 1)));
+  background: linear-gradient(0deg, #d7ad04 0%, rgba(255, 221, 0, 1) 40%, rgba(255, 224, 0, 1) 100%);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 11px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+footer {
+  width: 100%;
+  height: 45px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #202225;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.footer-wrapper {
+  height: 45px;
+  width: 100%;
+  position: relative;
+  margin: 0 175px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links ul {
+  display: flex;
+  align-items: center;
+}
+
+.footer-links ul li {
+  margin-right: 40px;
+  position: relative;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footer-links ul li::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(20px, -50%);
+  height: 3px;
+  width: 3px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.footer-links ul li:last-child::after {
+  display: none;
+}
+
+.footer-links ul li:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.footer-links ul li:first-child img {
+  margin-right: 10px;
+}
+
+.footer-links ul li a {
+  color: rgba(255, 255, 255, 0.45);
+  transition: 0.2s;
+}
+
+.footer-links ul li a:hover {
+  color: #fdde00;
+  transition: 0.2s;
+}
+
+.footer-social {
+  margin-right: 350px;
+}
+
+.footer-social a {
+  opacity: 0.45;
+  transition: 0.2s;
+}
+
+.footer-social a:hover {
+  opacity: 1;
+}
+
+#sidebar {
+  position: absolute;
+  top: 0px;
+  left: -218px;
+  width: 218px;
+  height: 100%;
+  background: #202225;
+  transition: all 300ms linear;
+}
+
+#sidebar.active {
+  left: 0px;
+}
+
+#sidebar .toggle-btn {
+  position: absolute;
+  left: 225px;
+  top: 10px;
+}
+
+#sidebar .toggle-btn span {
+  display: block;
+  width: 30px;
+  height: 5px;
+  background: #d7ad04;
+  margin: 5px 0px;
+  cursor: pointer;
+}
+
+#sidebar div.list div.item {
+  padding: 15px 10px;
+  border-bottom: 1px solid #444;
+  color: #fcfcfc;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.item a:visited {
+  color: inherit;
+}
